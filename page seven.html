@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+</head>
+<body>
+    <!DOCTYPE html>
+
+<!--
+=================================================
+DARASI NA 7
+HTML FORMS (TAKARDAR CIKA BAYANI)
+=================================================
+
+A wannan darasin za mu koyi:
+
+1. <form> - Fara form
+2. <label> - Sunan field
+3. <input> - Shigar da bayanai
+4. type attribute
+5. <textarea> - Rubutu mai tsawo
+6. <select> - Zaben abu
+7. <option> - Zabuka
+8. <button> - Maballi
+
+-->
+
+<html lang="ha">
+
+
+<head>
+
+<meta charset="UTF-8">
+
+
+<title>
+Darasi na 7 - HTML Forms
+</title>
+
+
+</head>
+
+
+
+<body>
+
+
+<h1>
+Darasi na 7: HTML Forms
+</h1>
+
+
+<h2>
+Forms a HTML
+</h2>
+
+
+
+<!-- HIRAR MALAMI DA ƊALIBI -->
+
+
+<h3>
+👨‍🏫 Malami:
+</h3>
+
+
+<p>
+A yau za mu koyi yadda ake ƙirƙirar Form
+a HTML.
+</p>
+
+
+
+<h3>
+👨‍🎓 Ɗalibi:
+</h3>
+
+
+<p>
+Malam, mene ne Form?
+</p>
+
+
+
+<h3>
+👨‍🏫 Malami:
+</h3>
+
+
+<p>
+Form hanya ce da ake amfani da ita wajen
+karɓar bayanai daga mai amfani.
+
+Misali:
+
+suna, email, password da saƙo.
+</p>
+
+
+<hr>
+
+
+<h2>
+Form Tag (&lt;form&gt;)
+</h2>
+
+
+<p>
+
+&lt;form&gt; shi ne yake fara ƙirƙirar form.
+
+</p>
+
+
+<p>
+
+Misali:
+
+</p>
+
+
+<p>
+
+&lt;form&gt;
+
+<br>
+
+Bayanan form
+
+<br>
+
+&lt;/form&gt;
+
+</p>
+
+
+<hr>
+
+
+<h2>
+Input Tag (&lt;input&gt;)
+</h2>
+
+
+<p>
+
+&lt;input&gt; yana ba mai amfani damar
+shigar da bayanai.
+
+</p>
+
+
+<h3>
+Misali:
+</h3>
+
+
+<form>
+
+
+<label>
+Suna:
+</label>
+
+
+<br>
+
+
+<input type="text">
+
+
+<br><br>
+
+
+
+<label>
+Password:
+</label>
+
+
+<br>
+
+
+<input type="password">
+
+
+<br><br>
+
+
+
+<label>
+Email:
+</label>
+
+
+<br>
+
+
+<input type="email">
+
+
+<br><br>
+
+
+</form>
+
+
+<hr>
+
+
+<h2>
+Nau'o'in Input</h2>
+
+
+<table border="1">
+
+
+<tr>
+
+<th>
+Type
+</th>
+
+<th>
+Aiki
+</th>
+
+</tr>
+
+
+<tr>
+
+<td>
+text
+</td>
+
+<td>
+Rubuta kalmomi ko suna.
+</td>
+
+</tr>
+
+
+<tr>
+
+<td>
+password
+</td>
+
+<td>
+Rubuta password a ɓoye.
+</td>
+
+</tr>
+
+
+<tr>
+
+<td>
+email
+</td>
+
+<td>
+Shigar da email.
+</td>
+
+</tr>
+
+
+<tr>
+
+<td>
+radio
+</td>
+
+<td>
+Zaɓi abu ɗaya.
+</td>
+
+</tr>
+
+
+<tr>
+
+<td>
+checkbox
+</td>
+
+<td>
+Zaɓi abubuwa fiye da ɗaya.
+</td>
+
+</tr>
+
+
+<tr>
+
+<td>
+submit
+</td>
+
+<td>
+Aika bayanai.
+</td>
+
+</tr>
+
+
+</table>
+
+
+<hr>
+
+
+<h2>
+Radio Button</h2>
+
+
+<p>
+Ana amfani da radio wajen zaɓar abu ɗaya.
+</p>
+
+
+
+<form>
+
+
+<p>
+Jinsi:
+</p>
+
+
+<input type="radio" name="jinsi">
+
+Namiji
+
+
+<br>
+
+
+<input type="radio" name="jinsi">
+
+Mace
+
+
+</form>
+
+
+<hr>
+
+
+<h2>
+Checkbox</h2>
+
+
+<p>
+Checkbox yana bada damar zaɓar abubuwa da yawa.
+</p>
+
+
+<form>
+
+
+<p>
+Darussa:
+</p>
+
+
+<input type="checkbox">
+
+HTML
+
+
+<br>
+
+
+<input type="checkbox">
+
+CSS
+
+
+<br>
+
+
+<input type="checkbox">
+
+JavaScript
+
+
+</form>
+
+
+<hr>
+
+
+<h2>
+Textarea</h2>
+
+
+<p>
+
+&lt;textarea&gt; ana amfani da shi wajen rubuta
+dogon saƙo.
+
+</p>
+
+
+<form>
+
+
+<label>
+Saƙo:
+</label>
+
+
+<br>
+
+
+<textarea rows="5" cols="30">
+
+</textarea>
+
+
+</form>
+
+
+<hr>
+
+
+<h2>
+Select da Option</h2>
+
+
+<p>
+
+Ana amfani da su wajen yin zabi daga jerin abubuwa.
+
+</p>
+
+
+<form>
+
+
+<label>
+Zaɓi Course:
+</label>
+
+
+<br>
+
+
+<select>
+
+
+<option>
+Computer Science
+</option>
+
+
+<option>
+Mathematics
+</option>
+
+
+<option>
+Physics
+</option>
+
+
+</select>
+
+
+</form>
+
+
+<hr>
+
+
+<h2>
+Button</h2>
+
+
+<p>
+
+&lt;button&gt; yana ƙirƙirar maballi.
+
+</p>
+
+
+<form>
+
+
+<button>
+Aika
+</button>
+
+
+</form>
+
+
+<hr>
+
+
+<h2>
+Cikakken Misalin Form</h2>
+
+
+<form>
+
+
+<label>
+Cikakken Suna:
+</label>
+
+
+<br>
+
+
+<input type="text">
+
+
+<br><br>
+
+
+
+<label>
+Email:
+</label>
+
+
+<br>
+
+
+<input type="email">
+
+
+<br><br>
+
+
+
+<label>
+Password:
+</label>
+
+
+<br>
+
+
+<input type="password">
+
+
+<br><br>
+
+
+
+<label>
+Sakonka:
+</label>
+
+
+<br>
+
+
+<textarea rows="4" cols="30">
+
+</textarea>
+
+
+<br><br>
+
+
+
+<label>
+Jihar ka:
+</label>
+
+
+<br>
+
+
+<select>
+
+
+<option>
+Kano
+</option>
+
+
+<option>
+Kaduna
+</option>
+
+
+<option>
+Abuja
+</option>
+
+
+</select>
+
+
+<br><br>
+
+
+
+<input type="submit" value="Aika">
+
+
+</form>
+
+
+<hr>
+
+
+<h3>
+👨‍🎓 Ɗalibi:
+</h3>
+
+
+<p>
+Yanzu na gane Malam.
+
+Form yana karɓar bayanai daga mai amfani.
+</p>
+
+
+
+<h3>
+👨‍🏫 Malami:
+</h3>
+
+
+<p>
+Daidai.
+
+Forms suna da amfani sosai a websites.
+</p>
+
+
+<hr>
+
+
+<h2>
+Takaitawa
+</h2>
+
+
+<ul>
+
+<li>
+&lt;form&gt; yana fara form.
+</li>
+
+
+<li>
+&lt;label&gt; yana rubuta sunan field.
+</li>
+
+
+<li>
+&lt;input&gt; yana karɓar bayanai.
+</li>
+
+
+<li>
+textarea yana karɓar dogon rubutu.
+</li>
+
+
+<li>
+select da option suna yin zabi.
+</li>
+
+
+<li>
+button yana ƙirƙirar maballi.
+</li>
+
+
+</ul>
+
+
+<hr>
+
+
+<h2>
+Aikin Gida
+</h2>
+
+
+<ol>
+
+<li>
+Ƙirƙiri form mai suna da email.
+</li>
+
+
+<li>
+Saka password field.
+</li>
+
+
+<li>
+Saka radio button.
+</li>
+
+
+<li>
+Saka checkbox guda uku.
+</li>
+
+
+<li>
+Saka submit button.
+</li>
+
+
+</ol>
+<link rel="stylesheet" href="style.css">
+
+<a href="page eight.html">page eight</a>
+</body>
+
+
+</html>
+</body>
+</html>
